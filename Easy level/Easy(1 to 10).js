@@ -35,9 +35,19 @@ console.log(nextNumber);
 
 //Question # 4 => Area of a Triangle
 function calculateTriangleArea(base, height) {
-    return 0.5 * (base * height;)
+    return 0.5 * (base * height)
 }
 const base = 10;
 const height = 5;
 const area = calculateTriangleArea(base, height);
 console.log(area);  
+
+
+
+//Question # 5 => Area of a Triangle
+function caclAge(age){
+  return age*365
+}
+const age = 20;
+const result = caclAge(age)
+console.log(result);
