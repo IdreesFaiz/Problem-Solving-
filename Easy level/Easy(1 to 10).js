@@ -51,3 +51,14 @@ function caclAge(age){
 const age = 20;
 const result = caclAge(age)
 console.log(result);
+
+
+//Question # 6 => Power Calculator
+//Create a function that takes voltage and current and returns the calculated power.
+function calculatePower(voltage, current) {
+  return voltage * current;
+}
+const voltage = 110;  
+const current = 3;  
+const power = calculatePower(voltage, current);
+console.log(power);
