@@ -84,4 +84,11 @@ let num2 = 3;
 console.log(remainder(num1, num2));   // 1
 
 
- 
+//Question # 9 => Return the Remainder from Two Numbers
+function findPerimeter(length, width) {
+  return 2 * (length + width);
+}
+let length = 10;
+let width = 5;
+console.log(findPerimeter(length, width));   
+
