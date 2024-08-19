@@ -75,4 +75,13 @@ console.log(maxEdge(a, b));
 
 
 
+//Question # 8 => Return the Remainder from Two Numbers
+function remainder(a, b) {
+  return a % b;
+}
+let num1 = 10;
+let num2 = 3;
+console.log(remainder(num1, num2));   // 1
+
+
  
