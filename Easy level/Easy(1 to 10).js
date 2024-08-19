@@ -62,3 +62,17 @@ const voltage = 110;
 const current = 3;  
 const power = calculatePower(voltage, current);
 console.log(power);
+
+
+
+//Question # 7 => Maximum Edge of a Triangle
+function maxEdge(a, b) {
+  return a + b - 1;
+}
+let a = 7;
+let b = 10;
+console.log(maxEdge(a, b));  
+
+
+
+ 
