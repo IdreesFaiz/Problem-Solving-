@@ -92,3 +92,11 @@ let length = 10;
 let width = 5;
 console.log(findPerimeter(length, width));   
 
+
+//Question # 10 => Is the Number Less than or Equal to Zero?
+var num = -1 ;
+function check(num){
+ const b =  num <= 0 ? true : false
+ console.log(b); 
+}
+check(num);
