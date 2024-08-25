@@ -51,3 +51,12 @@ console.log(changeResult);
 
 
 
+//Question # 3 => Reverse Of integer
+var number = -123
+var reverseNumber = number.toString().split('').reverse()
+console.log(reverseNumber);
+
+
+
+
+
