@@ -38,3 +38,16 @@ function sum(numb , target){
 }
 var numb = [2, 7, 11, 15] , target = 9; 
 console.log(sum(numb, target));
+
+
+
+//Question # 2 =>  Add Two Numbers
+var l1 = [2,4,3] , l2 = [5,6,4] 
+var Rl1 = +(l1.reverse().join(""))
+var Rl2 = +(l2.reverse().join(""))
+var Result = Rl1+ Rl2
+var changeResult = Result.toString().split('').reverse()
+console.log(changeResult);
+
+
+
