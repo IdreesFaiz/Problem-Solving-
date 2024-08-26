@@ -71,6 +71,18 @@ else{
 
 
 
+//Question # 4 =>  Palindrome Number
+var number = 101;
+var reverseNumber = (number.toString().split("").reverse())
+var convertNumber = +reverseNumber.join('')
+console.log(convertNumber);
+if (number ===  convertNumber) {
+  console.log(true);
+} else {
+ console.log(false);
+}
+
+
 
 
 
