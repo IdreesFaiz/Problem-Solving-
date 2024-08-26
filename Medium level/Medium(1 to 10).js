@@ -52,9 +52,24 @@ console.log(changeResult);
 
 
 //Question # 3 => Reverse Of integer
-var number = -123
-var reverseNumber = number.toString().split('').reverse()
-console.log(reverseNumber);
+var number = 120
+
+if(number < 0){
+  let positive = Math.abs(number)
+  var reverseNumber = positive.toString().split("").reverse();
+  var add = reverseNumber.unshift('-')
+console.log(+reverseNumber.join(''));
+
+}
+else{
+  console.log(true);
+  let positive = Math.abs(number);
+  var reverseNumber = positive.toString().split("").reverse();
+  console.log(+reverseNumber.join(""));
+
+}
+
+
 
 
 
