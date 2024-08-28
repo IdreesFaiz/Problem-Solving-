@@ -11,6 +11,7 @@ cal(5, 2, 8);
 
 
 //Question # 12 => Plus One
+// new 
 var increment = [4,3,2,1]
 var work = (+increment.join("") + 1).toString().split("");
 console.log(work);
